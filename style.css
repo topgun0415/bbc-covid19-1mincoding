@@ -1,8 +1,5 @@
 /** @format */
 
-html {
-  font-family: 'Noto Sans KR', sans-serif;
-}
 body {
   margin: 0;
 }
@@ -31,6 +28,7 @@ img {
 
 .scroll-graphic {
   position: sticky;
+  overflow-x: hidden;
   top: 0;
   height: 100vh;
 }
@@ -46,6 +44,8 @@ img {
   height: 100%;
   opacity: 0;
   transition: ease-in-out 0.5s;
+  will-change: opacity;
+  /* 컴퓨터한테 미리 opacity가 사용될거라는걸 알려주는 css */
 }
 
 /* 스크롤 구간에 따라서 이미지 보여주기 */
@@ -77,4 +77,13 @@ img {
   bottom: 70%;
   transform: translateX(-100%);
   transition: 1.5s 0.5s linear;
+}
+
+[data-index='5'] .bird {
+  left: 33%;
+  bottom: 30%;
+}
+
+.strikethrough {
+  text-decoration: line-through red;
 }
