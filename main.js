@@ -12,6 +12,20 @@ const actions = {
       ).style.transform = `translateX(-100%)`;
     }
   },
+
+  birdFlies2(key) {
+    if (key) {
+      document.querySelector(
+        '[data-index="5"] .bird'
+      ).style.transform = `translate(${window.innerWidth}px, ${
+        -window.innerHeight * 0.7
+      }px)`;
+    } else {
+      document.querySelector(
+        '[data-index="5"] .bird'
+      ).style.transform = `translateX(-100%)`;
+    }
+  },
 };
 
 // 전역변수 선언을 자제하기 위해 즉시실행 함수로 scroll section 을 data-inedex로 묶어줄 예정
@@ -76,5 +90,11 @@ const actions = {
       // }
     }
   });
+
+  // observer로 이미지를 불러오기 때문에
+  window.addEventListener('load', () => {
+    setTimeout(() => scrollTo(0, 0), 100);
+  });
+
   activate();
 })();
