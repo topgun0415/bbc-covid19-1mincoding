@@ -8,19 +8,13 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
 
 ## Course : Covid-19 Interactive Web
-
-<br>
 <br>
 <img width="1035" alt="sample img" src="https://user-images.githubusercontent.com/82861521/153161842-0000b6d9-3dad-4b1a-b59f-b3a135ff9d94.png">
-png)
-<br>
 <br>
 <br>
 
 [🚗 Visit "Covid-19 interactive web course"](https://topgun0415.github.io/bbc-covid19-1mincoding/)
 
-<br>
-<br>
 <br>
 
 ---
