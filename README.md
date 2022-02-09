@@ -11,7 +11,8 @@
 
 <br>
 <br>
-![screenshot](./sample img.png)
+<img width="1035" alt="sample img" src="https://user-images.githubusercontent.com/82861521/153161842-0000b6d9-3dad-4b1a-b59f-b3a135ff9d94.png">
+png)
 <br>
 <br>
 <br>
